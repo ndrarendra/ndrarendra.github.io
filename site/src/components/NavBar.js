@@ -26,9 +26,8 @@ const CustomLink = ({ href, title, className = "" }) => {
         className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 dark:bg-light ${
           active ? "w-full" : "w-0"
         }`}
-      >
-        &nbsp;
-      </span>
+      aria-hidden="true"
+      />
     </Link>
   );
 };
@@ -48,9 +47,8 @@ const CustomMobileLink = ({ href, title, className = "", onNavigate }) => {
         className={`h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 dark:bg-dark ${
           active ? "w-full" : "w-0"
         }`}
-      >
-        &nbsp;
-      </span>
+      aria-hidden="true"
+      />
     </Link>
   );
 };

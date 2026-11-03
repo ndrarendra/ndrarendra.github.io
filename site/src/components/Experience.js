@@ -3,14 +3,14 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 import { experience } from "@/data/site";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ position, company, companyLink, time, address, points }) => {
   const ref = useRef(null);
   return (
     <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
       <LiIcon reference={ref} />
       <motion.div className="w-full" initial={{ y: 50 }} whileInView={{ y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, type: "spring" }}>
         <h3 className="font-bold text-2xl sm:text-xl xs:text-lg">
-          {position}&nbsp;
+          {position}{" "}
           {companyLink ? (
             <a href={companyLink} target="_blank" rel="noreferrer" className="text-primary dark:text-primaryDark">
               @{company}
@@ -22,7 +22,13 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm">{work}</p>
+        <ul className="mt-2 w-full list-disc pl-5 space-y-1.5 marker:text-dark/40 dark:marker:text-light/40">
+          {points.map((point) => (
+            <li key={point} className="font-medium md:text-sm">
+              {point}
+            </li>
+          ))}
+        </ul>
       </motion.div>
     </li>
   );

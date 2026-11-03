@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { motion } from "framer-motion";
 
 const quote = {
@@ -24,10 +25,14 @@ const AnimatedText = ({ text, className = "", as = "h1" }) => {
         initial="initial"
         animate="animate"
       >
+        {/* Plain spaces between words, so copied text has no hidden characters. */}
         {text.split(" ").map((word, index) => (
-          <motion.span key={`${word}-${index}`} className="inline-block" variants={singleWord}>
-            {word}&nbsp;
-          </motion.span>
+          <Fragment key={`${word}-${index}`}>
+            {index > 0 ? " " : null}
+            <motion.span className="inline-block" variants={singleWord}>
+              {word}
+            </motion.span>
+          </Fragment>
         ))}
       </Tag>
     </div>

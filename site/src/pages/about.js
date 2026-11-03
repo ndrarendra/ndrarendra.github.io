@@ -45,7 +45,7 @@ export default function About() {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold text-dark/75 dark:text-light/75">Biography</h2>
               {about.bio.map((paragraph, i) => (
-                <p key={i} className={`font-medium ${i > 0 ? "my-4" : ""}`}>
+                <p key={i} className={`font-medium ${i > 0 ? "mt-4" : ""}`}>
                   {paragraph}
                 </p>
               ))}
