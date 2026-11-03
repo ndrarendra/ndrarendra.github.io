@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Montserrat, Arial, Helvetica, sans-serif">
+<rect width="1200" height="700" fill="#ececea"/>
+<ellipse cx="150" cy="250" rx="90" ry="26" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M60,250 v130 a90,26 0 0 0 180,0 v-130" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+<ellipse cx="150" cy="250" rx="90" ry="26" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+<text x="150" y="335" text-anchor="middle" font-size="26" font-weight="700" fill="#1b1b1b">MySQL</text>
+<rect x="310" y="270" width="200" height="90" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="410.0" y="323.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">Debezium</text>
+<rect x="580" y="270" width="180" height="90" rx="18" fill="#1b1b1b" stroke="#1b1b1b" stroke-width="4"/><text x="670.0" y="324.1" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">Kafka</text>
+<rect x="830" y="200" width="270" height="90" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="965.0" y="253.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">Elasticsearch</text>
+<rect x="830" y="350" width="270" height="90" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="965.0" y="403.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">Kibana</text>
+<rect x="580" y="470" width="180" height="90" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="670.0" y="523.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">Flask</text>
+<line x1="240" y1="315" x2="302" y2="315" stroke="#1b1b1b" stroke-width="4"/><polygon points="302,315 286,306 286,324" fill="#1b1b1b" transform="rotate(0 302 315)"/>
+<line x1="510" y1="315" x2="572" y2="315" stroke="#1b1b1b" stroke-width="4"/><polygon points="572,315 556,306 556,324" fill="#1b1b1b" transform="rotate(0 572 315)"/>
+<path d="M760,300 C791.0,300 791.0,245 822,245" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M760,330 C791.0,330 791.0,395 822,395" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<line x1="670" y1="360" x2="670" y2="462" stroke="#B63E96" stroke-width="5" stroke-dasharray="12 10"/>
+<text x="250" y="295" font-size="18" font-weight="600" fill="#1b1b1b">binlog</text>
+<text x="790" y="520" font-size="22" font-weight="600" fill="#1b1b1b">live view of changes</text>
+<text x="70" y="620" font-size="24" font-weight="700" fill="#1b1b1b">6 services, 1 docker-compose file</text>
+</svg>

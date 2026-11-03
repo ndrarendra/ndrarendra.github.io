@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-light text-dark font-mont dark:bg-dark dark:text-light;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-spin-slow,
+  .animate-pulse {
+    animation: none;
+  }
+}
+
+/* Organic blob used to mask the hero and about photos. */
+.blob-mask {
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='black' d='M43.9,-62.1C56.2,-52.3,65,-38.9,70.6,-23.7C76.2,-8.5,78.6,8.5,73.6,23C68.6,37.5,56.2,49.5,42.2,58.8C28.2,68.1,12.6,74.7,-3.3,79.2C-19.2,83.7,-35.4,86.1,-47.4,79C-59.4,71.9,-67.2,55.3,-72.3,38.8C-77.4,22.3,-79.8,5.9,-76.1,-8.9C-72.4,-23.7,-62.6,-36.9,-50.6,-46.8C-38.6,-56.7,-24.4,-63.3,-9.6,-66.6C5.2,-69.9,31.6,-71.9,43.9,-62.1Z' transform='translate(100 100)'/></svg>");
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='black' d='M43.9,-62.1C56.2,-52.3,65,-38.9,70.6,-23.7C76.2,-8.5,78.6,8.5,73.6,23C68.6,37.5,56.2,49.5,42.2,58.8C28.2,68.1,12.6,74.7,-3.3,79.2C-19.2,83.7,-35.4,86.1,-47.4,79C-59.4,71.9,-67.2,55.3,-72.3,38.8C-77.4,22.3,-79.8,5.9,-76.1,-8.9C-72.4,-23.7,-62.6,-36.9,-50.6,-46.8C-38.6,-56.7,-24.4,-63.3,-9.6,-66.6C5.2,-69.9,31.6,-71.9,43.9,-62.1Z' transform='translate(100 100)'/></svg>");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
