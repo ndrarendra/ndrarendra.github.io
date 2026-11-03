@@ -213,7 +213,7 @@ export const projects = {
       type: "Data engineering",
       title: "Change Data Capture Pipeline",
       summary:
-        "Streams every change in a MySQL database through Debezium and Kafka into Elasticsearch and Kibana, with a small Flask page to watch the changes arrive. Six services, one Docker Compose file.",
+        "Captures every insert, update and delete from the MySQL binary log with Debezium, publishes it to Kafka, and shows each change in a small Flask app as it happens. Seven services, one Docker Compose file.",
       img: "/images/projects/cdc.svg",
       link: "",
       github: "https://github.com/ndrarendra/Change-Data-Capture",
