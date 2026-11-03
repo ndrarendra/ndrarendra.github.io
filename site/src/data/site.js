@@ -35,7 +35,7 @@ export const about = {
   numbers: [
     { value: 10, suffix: "+", label: "years of experience, research included" },
     { value: 300, suffix: "+", label: "stored procedures traced at LG Uplus" },
-    { value: 200, suffix: "K+", label: "images through one pipeline at Simyu" },
+    { value: 200, suffix: "K+", label: "images through one pipeline at Symyoo" },
   ],
 };
 
@@ -88,7 +88,7 @@ export const experience = [
   },
   {
     position: "Senior Researcher, Full Stack and Data",
-    company: "Simyu",
+    company: "Symyoo Co., Ltd.",
     companyLink: "",
     time: "Jan 2020 - May 2025",
     address: "Seoul",
