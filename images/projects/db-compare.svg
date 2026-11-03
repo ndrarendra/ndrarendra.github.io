@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Montserrat, Arial, Helvetica, sans-serif">
+<rect width="1200" height="700" fill="#ececea"/>
+<text x="80" y="130" font-size="28" font-weight="800" fill="#1b1b1b">Source</text>
+<rect x="80" y="150" width="380" height="380" rx="16" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+<rect x="80" y="150" width="380" height="60" rx="16" fill="#1b1b1b"/>
+<rect x="80" y="190" width="380" height="20" fill="#1b1b1b"/>
+<line x1="80" y1="274" x2="460" y2="274" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="104" y="234" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="224" y="234" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="344" y="234" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<line x1="80" y1="338" x2="460" y2="338" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="104" y="298" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="224" y="298" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="344" y="298" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<line x1="80" y1="402" x2="460" y2="402" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="104" y="362" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="224" y="362" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="344" y="362" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<line x1="80" y1="466" x2="460" y2="466" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="104" y="426" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="224" y="426" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="344" y="426" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<line x1="80" y1="530" x2="460" y2="530" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="104" y="490" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="224" y="490" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="344" y="490" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<text x="560" y="130" font-size="28" font-weight="800" fill="#1b1b1b">Target</text>
+<rect x="560" y="150" width="380" height="380" rx="16" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+<rect x="560" y="150" width="380" height="60" rx="16" fill="#1b1b1b"/>
+<rect x="560" y="190" width="380" height="20" fill="#1b1b1b"/>
+<line x1="560" y1="274" x2="940" y2="274" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="584" y="234" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="704" y="234" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="824" y="234" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="564" y="278" width="372" height="56" fill="#B63E96" opacity="0.25"/>
+<line x1="560" y1="338" x2="940" y2="338" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="584" y="298" width="90" height="16" rx="8" fill="#B63E96" opacity="0.8"/>
+<rect x="704" y="298" width="120" height="16" rx="8" fill="#B63E96" opacity="0.8"/>
+<rect x="824" y="298" width="70" height="16" rx="8" fill="#B63E96" opacity="0.8"/>
+<line x1="560" y1="402" x2="940" y2="402" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="584" y="362" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="704" y="362" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="824" y="362" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="564" y="406" width="372" height="56" fill="#B63E96" opacity="0.25"/>
+<line x1="560" y1="466" x2="940" y2="466" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="584" y="426" width="90" height="16" rx="8" fill="#B63E96" opacity="0.8"/>
+<rect x="704" y="426" width="120" height="16" rx="8" fill="#B63E96" opacity="0.8"/>
+<rect x="824" y="426" width="70" height="16" rx="8" fill="#B63E96" opacity="0.8"/>
+<line x1="560" y1="530" x2="940" y2="530" stroke="#c9c9c6" stroke-width="2"/>
+<rect x="584" y="490" width="90" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="704" y="490" width="120" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="824" y="490" width="70" height="16" rx="8" fill="#1b1b1b" opacity="0.25"/>
+<rect x="1000" y="250" width="140" height="170" rx="14" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+<line x1="1000" y1="290" x2="1140" y2="290" stroke="#c9c9c6" stroke-width="2"/>
+<line x1="1000" y1="322" x2="1140" y2="322" stroke="#c9c9c6" stroke-width="2"/>
+<line x1="1000" y1="354" x2="1140" y2="354" stroke="#c9c9c6" stroke-width="2"/>
+<line x1="1000" y1="386" x2="1140" y2="386" stroke="#c9c9c6" stroke-width="2"/>
+<line x1="1047" y1="250" x2="1047" y2="420" stroke="#c9c9c6" stroke-width="2"/>
+<text x="1070" y="470" text-anchor="middle" font-size="22" font-weight="700" fill="#1b1b1b">Excel report</text>
+<text x="560" y="620" font-size="22" font-weight="700" fill="#B63E96">2 rows differ</text>
+</svg>

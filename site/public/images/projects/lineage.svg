@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Montserrat, Arial, Helvetica, sans-serif">
+<rect width="1200" height="700" fill="#ececea"/>
+<rect x="70" y="120" width="240" height="96" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="190.0" y="176.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">L0.customer</text>
+<rect x="70" y="300" width="240" height="96" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="190.0" y="356.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">L0.billing</text>
+<rect x="70" y="480" width="240" height="96" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="190.0" y="536.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">L0.usage</text>
+<rect x="470" y="200" width="260" height="96" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="600.0" y="256.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">L1 procedure</text>
+<rect x="470" y="400" width="260" height="96" rx="18" fill="#fff" stroke="#1b1b1b" stroke-width="4"/><text x="600.0" y="456.4" text-anchor="middle" font-size="24" font-weight="700" fill="#1b1b1b">L2 procedure</text>
+<rect x="890" y="300" width="240" height="96" rx="18" fill="#1b1b1b" stroke="#1b1b1b" stroke-width="4"/><text x="1010.0" y="357.1" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">L2.target</text>
+<path d="M310,168 C390.0,168 390.0,248 470,248" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M310,348 C390.0,348 390.0,248 470,248" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M310,348 C390.0,348 390.0,448 470,448" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M310,528 C390.0,528 390.0,448 470,448" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M730,248 C810.0,248 810.0,348 890,348" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+<path d="M730,448 C810.0,448 810.0,348 890,348" fill="none" stroke="#B63E96" stroke-width="8"/>
+<path d="M310,528 C390.0,528 390.0,448 470,448" fill="none" stroke="#B63E96" stroke-width="8"/>
+<rect x="470" y="590" width="86" height="44" rx="22" fill="#2bb3a8"/><text x="513.0" y="619" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">PASS</text>
+<rect x="574" y="590" width="101" height="44" rx="22" fill="#E39B3A"/><text x="624.5" y="619" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">CHECK</text>
+<rect x="693" y="590" width="176" height="44" rx="22" fill="#B63E96"/><text x="781.0" y="619" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">UNRESOLVED</text>
+</svg>
