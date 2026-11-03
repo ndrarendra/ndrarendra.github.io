@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Montserrat, Arial, Helvetica, sans-serif">
+<rect width="1200" height="700" fill="#ececea"/>
+<rect x="120.0" y="90" width="960" height="80" rx="14" fill="#6C4BC4"/>
+<rect x="220.0" y="190" width="760" height="80" rx="14" fill="#7d5fc9"/>
+<rect x="310.0" y="290" width="580" height="80" rx="14" fill="#5a86c4"/>
+<rect x="390.0" y="390" width="420" height="80" rx="14" fill="#3aa3b0"/>
+<rect x="460.0" y="490" width="280" height="80" rx="14" fill="#2bb3a8"/>
+<text x="600" y="143" text-anchor="middle" font-size="28" font-weight="700" fill="#fff">Simple member</text>
+<text x="600" y="543" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Financial</text>
+<text x="600" y="650" text-anchor="middle" font-size="24" font-weight="600" fill="#1b1b1b">split by country, visa and sign-up channel</text>
+</svg>
