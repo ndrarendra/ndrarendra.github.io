@@ -182,6 +182,12 @@ export const certifications = [
     date: "Jun 2026",
     link: "",
   },
+  {
+    name: "KBS Korean Language Test for Foreigners, Level 4",
+    issuer: "KBS한국어진흥원",
+    date: "Jun 2026",
+    link: "",
+  },
 ];
 
 // featured: true gives the project a full-width card.
