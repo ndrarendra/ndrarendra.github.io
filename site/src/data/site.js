@@ -108,7 +108,7 @@ export const experience = [
     ],
   },
   {
-    position: "Research Assistant",
+    position: "Research and Teaching Assistant",
     company: "Dong-A University",
     companyLink: "https://www.donga.ac.kr",
     time: "Mar 2017 - Jan 2020",
@@ -138,13 +138,13 @@ export const education = [
     info: "Deep learning research, including Twitter sentiment analysis and income prediction. GPA 4.30 / 4.5, five published papers.",
   },
   {
-    type: "MS in Information Systems (dual degree)",
+    type: "MEng in Information Systems (dual degree)",
     time: "2016 - 2017",
     place: "Pukyong National University",
     info: "Dual degree with Bandung Institute of Technology. GPA 4.5 / 4.5.",
   },
   {
-    type: "MS in Computer Engineering (dual degree)",
+    type: "MEng in Computer Engineering (dual degree)",
     time: "2015 - 2017",
     place: "Bandung Institute of Technology",
     info: "Dual degree with Pukyong National University. GPA 3.5 / 4.0.",
@@ -258,6 +258,6 @@ export const projects = {
 
 export const contact = {
   headline: "Let's Talk.",
-  text: "I'm open to data engineering, analytics engineering and data or AI backend roles in Seoul. Email is the quickest way to reach me.",
+  text: "I'm open to data, AI and full stack roles in Seoul. Email is the quickest way to reach me.",
   status: "Permanent resident (F-5), so no visa sponsorship is needed.",
 };
